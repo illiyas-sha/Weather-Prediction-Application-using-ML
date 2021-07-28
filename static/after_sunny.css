@@ -1,0 +1,27 @@
+body {
+    /* background-color: #e06513; */
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    font-size: 2 rem;
+    font-weight: bold;
+}
+
+section {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+section:nth-child(1){
+	justify-content: flex-start;
+	background: linear-gradient(#0004, #0004),
+		url(/static/sunny-day.jpg)
+			no-repeat;
+	background-size: cover;
+	background-position: top;
+	color: #fff;
+}
